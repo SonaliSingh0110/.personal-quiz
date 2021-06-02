@@ -1,0 +1,89 @@
+var readlineSync = require('readline-sync');
+var score = 0;
+console.log("Please type your answer in lowercase")
+
+var questionOne = "Am I a Girl?";
+var answerOne = "yes";
+
+var userName = readlineSync.question(questionOne);
+console.log('you entered ' + userName);
+
+if(userName === answerOne){
+  console.log("you are right");
+  score=score+1;
+  console.log("your score is "+score);
+
+}else{
+  console.log("opps! you are wrong");
+  score=score-1;
+  console.log("your score is "+score);
+}
+
+var questionTwo = "Am I older than 25?";
+var answerTwo = "no";
+
+var userName = readlineSync.question(questionTwo);
+console.log('you entered ' + userName);
+
+if(userName === answerTwo){
+  console.log("you are right");
+  score=score+1;
+  console.log("your score is "+score);
+
+}else{
+  console.log("opps! you are wrong");
+  score=score-1;
+  console.log("your score is "+score);
+}
+
+var questionThree = "Am I an Architect?";
+var answerThree = "no";
+
+var userName = readlineSync.question(questionThree);
+console.log('you entered ' + userName);
+
+if(userName === answerThree){
+  console.log("you are right");
+  score=score+1;
+  console.log("your score is "+score);
+
+}else{
+  console.log("opps! you are wrong");
+  score=score-1;
+  console.log("your score is "+score);
+}
+
+var questionFour = "Am I an F.R.I.E.N.D.S Fan?";
+var answerFour = "yes";
+
+var userName = readlineSync.question(questionFour);
+console.log('you entered ' + userName);
+
+if(userName === answerFour){
+  console.log("you are right");
+  score=score+1;
+  console.log("your score is "+score);
+
+}else{
+  console.log("opps! you are wrong");
+  score=score-1;
+  console.log("your score is "+score);
+}
+
+var questionFive = "Am I an Football enthusiat?";
+var answerFive = "no";
+
+var userName = readlineSync.question(questionFive);
+console.log('you entered ' + userName);
+
+if(userName === answerFive){
+  console.log("you are right");
+  score=score+1;
+  console.log("your score is "+score);
+
+}else{
+  console.log("opps! you are wrong");
+  score=score-1;
+  console.log("your score is "+score);
+}
+
